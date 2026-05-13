@@ -1,36 +1,53 @@
-# Écko Arquitetura - Site institucional
+# Écko Arquitetura
 
-Site institucional estático desenvolvido com HTML, CSS e JavaScript puro.
+Landing page institucional desenvolvida para apresentar os serviços, projetos e informações de contato da **Écko Arquitetura**.  
+O projeto foi criado com foco em design moderno, responsividade e boa experiência para o usuário.
 
-## Estrutura
+## 🔗 Acesse o projeto
 
-- `index.html`: estrutura da página
-- `style.css`: layout, responsividade e animações
-- `script.js`: menu mobile, filtros, lightbox, FAQ, botão de topo e formulário para WhatsApp
-- `assets/img/`: imagens otimizadas do projeto
+[Ver site publicado](https://devguicrm.github.io/Ecko-arquitetura/)
 
-## O que alterar antes de publicar
+## 📌 Sobre o projeto
 
-No arquivo `script.js`, altere:
+Este site foi desenvolvido como uma página para um escritório de arquitetura, com o objetivo de apresentar a identidade da marca, seus principais serviços, projetos realizados e canais de contato.
 
-```js
-const WHATSAPP_NUMBER = "5541999999999";
-const INSTAGRAM_URL = "https://instagram.com/ecko.arquitetura";
-```
+A proposta do projeto é oferecer uma navegação simples, visual profissional e layout adaptável para diferentes dispositivos, como computadores, tablets e celulares.
 
-No arquivo `index.html`, altere também:
+## 🚀 Funcionalidades
 
-- e-mail de contato
-- número exibido na seção de contato
-- @ do Instagram
-- textos institucionais, se quiser deixar mais pessoal
-- imagens dos projetos, caso tenha fotos reais
+- Layout responsivo;
+- Menu de navegação fixo;
+- Menu mobile;
+- Seção inicial com chamada principal;
+- Apresentação da empresa;
+- Cards de serviços;
+- Galeria de projetos;
+- Filtro de projetos por categoria;
+- Lightbox para visualização das imagens;
+- Seção de perguntas frequentes;
+- Formulário de contato integrado ao WhatsApp;
+- Botão flutuante de WhatsApp;
+- Botão de voltar ao topo;
+- Animações e interações com JavaScript.
 
-## Como publicar no GitHub Pages
+## 🛠️ Tecnologias utilizadas
 
-1. Crie um repositório no GitHub.
-2. Envie todos os arquivos desta pasta para o repositório.
-3. Vá em `Settings > Pages`.
-4. Em `Build and deployment`, selecione `Deploy from a branch`.
-5. Escolha a branch `main` e a pasta `/root`.
-6. Salve e aguarde o link ser gerado.
+- HTML5
+- CSS3
+- JavaScript
+- Font Awesome
+- Google Fonts
+- GitHub Pages
+
+## 📂 Estrutura do projeto
+
+```bash
+ecko-arquitetura/
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── script.js
+├── imagem/
+│   └── imagens-do-projeto
+└── README.md
