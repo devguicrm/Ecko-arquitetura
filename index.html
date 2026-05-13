@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Écko Arquitetura — projetos residenciais, interiores, comerciais e consultoria arquitetônica com estética, funcionalidade e planejamento." />
+  <meta name="keywords" content="arquitetura, design de interiores, projeto residencial, projeto comercial, Écko Arquitetura" />
+  <meta name="author" content="Écko Arquitetura" />
+  <title>Écko Arquitetura | Projetos com identidade, técnica e sofisticação</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="top-line"></div>
+
+  <header class="site-header" id="topo">
+    <nav class="navbar" id="navbar" aria-label="Menu principal">
+      <a href="#topo" class="brand" aria-label="Voltar ao início">
+        <span class="brand-mark">É</span>
+        <span>Écko Arquitetura</span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+
+      <div class="nav-menu" id="navMenu">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#processo">Processo</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#contato" class="nav-cta">Solicitar orçamento</a>
+      </div>
+    </nav>
+
+    <section class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <span class="eyebrow">Arquitetura • Interiores • Consultoria</span>
+        <h1>Projetos que unem estética, funcionalidade e identidade.</h1>
+        <p>
+          A Écko Arquitetura cria soluções para residências, ambientes corporativos e interiores,
+          transformando ideias em espaços planejados, elegantes e bem executados.
+        </p>
+        <div class="hero-actions">
+          <a href="#projetos" class="btn btn-primary">Ver projetos</a>
+          <a href="#contato" class="btn btn-outline">Fale conosco</a>
+        </div>
+      </div>
+
+      <div class="hero-card reveal reveal-delay-2">
+        <span>Planejamento completo</span>
+        <strong>Do conceito ao projeto final</strong>
+        <p>Briefing, estudo preliminar, modelagem, detalhamento e orientação para execução.</p>
+      </div>
+    </section>
+  </header>
+
+  <main>
+    <section class="section about" id="sobre">
+      <div class="container about-grid">
+        <div class="about-image reveal">
+          <img src="assets/img/logo-marks.jpg" alt="Marca visual da Écko Arquitetura" loading="lazy">
+        </div>
+
+        <div class="about-content reveal reveal-delay-1">
+          <span class="section-tag">Quem somos</span>
+          <h2>Arquitetura pensada para valorizar cada detalhe do ambiente.</h2>
+          <p>
+            A Écko Arquitetura atua no desenvolvimento de projetos arquitetônicos e interiores com foco em
+            conforto, estética e aproveitamento inteligente dos espaços. Cada proposta é pensada para traduzir
+            o estilo do cliente e tornar o ambiente mais funcional, bonito e duradouro.
+          </p>
+
+          <div class="about-highlights">
+            <div>
+              <i class="fa-solid fa-ruler-combined"></i>
+              <strong>Projeto técnico</strong>
+              <span>Organização, medidas, layout e detalhamento.</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-couch"></i>
+              <strong>Ambientes personalizados</strong>
+              <span>Estética alinhada à rotina e personalidade do cliente.</span>
+            </div>
+            <div>
+              <i class="fa-solid fa-layer-group"></i>
+              <strong>Visão completa</strong>
+              <span>Conceito, composição, materiais e funcionalidade.</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section services" id="servicos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Serviços</span>
+          <h2>Soluções para diferentes tipos de projeto</h2>
+          <p>Da primeira ideia à apresentação final, cada etapa é conduzida com planejamento e atenção ao detalhe.</p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="service-card reveal">
+            <i class="fa-solid fa-house-chimney"></i>
+            <h3>Projeto residencial</h3>
+            <p>Casas, apartamentos e reformas com foco em conforto, estética e melhor uso dos ambientes.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <i class="fa-solid fa-building"></i>
+            <h3>Projeto comercial</h3>
+            <p>Espaços corporativos, lojas e ambientes comerciais com identidade visual e funcionalidade.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <i class="fa-solid fa-chair"></i>
+            <h3>Design de interiores</h3>
+            <p>Composição de ambientes, escolha de materiais, mobiliário, iluminação e decoração.</p>
+          </article>
+
+          <article class="service-card reveal">
+            <i class="fa-solid fa-cube"></i>
+            <h3>Modelagem e 3D</h3>
+            <p>Visualização do projeto para facilitar decisões e apresentar melhor o resultado esperado.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-1">
+            <i class="fa-solid fa-clipboard-check"></i>
+            <h3>Consultoria</h3>
+            <p>Orientações para reorganização de espaços, escolha de acabamentos e melhorias pontuais.</p>
+          </article>
+
+          <article class="service-card reveal reveal-delay-2">
+            <i class="fa-solid fa-drafting-compass"></i>
+            <h3>Detalhamento</h3>
+            <p>Documentação técnica para apoiar a execução e reduzir erros durante a obra.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section process" id="processo">
+      <div class="container">
+        <div class="section-heading left reveal">
+          <span class="section-tag">Processo</span>
+          <h2>Como o projeto acontece</h2>
+          <p>Um fluxo claro ajuda o cliente a entender cada etapa e acompanhar a evolução da proposta.</p>
+        </div>
+
+        <div class="timeline">
+          <div class="timeline-item reveal">
+            <span>01</span>
+            <h3>Briefing</h3>
+            <p>Entendimento das necessidades, estilo, rotina, referências e objetivos do cliente.</p>
+          </div>
+          <div class="timeline-item reveal reveal-delay-1">
+            <span>02</span>
+            <h3>Conceito</h3>
+            <p>Criação da proposta inicial com layout, linguagem visual e soluções para o espaço.</p>
+          </div>
+          <div class="timeline-item reveal reveal-delay-2">
+            <span>03</span>
+            <h3>Desenvolvimento</h3>
+            <p>Ajustes, detalhamento técnico, definição de materiais, medidas e composição final.</p>
+          </div>
+          <div class="timeline-item reveal reveal-delay-3">
+            <span>04</span>
+            <h3>Entrega</h3>
+            <p>Apresentação dos arquivos, imagens, orientações e documentação para execução.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section projects" id="projetos">
+      <div class="container">
+        <div class="section-heading reveal">
+          <span class="section-tag">Portfólio</span>
+          <h2>Projetos e inspirações</h2>
+          <p>Galeria demonstrativa para apresentar estilos, possibilidades e áreas de atuação.</p>
+        </div>
+
+        <div class="project-filters reveal" aria-label="Filtros de projetos">
+          <button class="filter-btn active" data-filter="all">Todos</button>
+          <button class="filter-btn" data-filter="residencial">Residencial</button>
+          <button class="filter-btn" data-filter="interiores">Interiores</button>
+          <button class="filter-btn" data-filter="comercial">Comercial</button>
+        </div>
+
+        <div class="project-grid">
+          <article class="project-card reveal" data-category="residencial" data-title="Residência contemporânea" data-description="Fachada limpa, volumes marcantes e integração entre área social e externa." data-image="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=900&q=80" alt="Residência contemporânea" loading="lazy">
+            <div class="project-info">
+              <span>Residencial</span>
+              <h3>Residência contemporânea</h3>
+              <p>Integração, luz natural e linhas modernas.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1" data-category="interiores" data-title="Sala integrada" data-description="Ambiente acolhedor com composição de texturas, iluminação e mobiliário funcional." data-image="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1600210492493-0946911123ea?auto=format&fit=crop&w=900&q=80" alt="Sala integrada" loading="lazy">
+            <div class="project-info">
+              <span>Interiores</span>
+              <h3>Sala integrada</h3>
+              <p>Conforto visual e aproveitamento de espaço.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2" data-category="comercial" data-title="Ambiente corporativo" data-description="Projeto para escritório com layout funcional, áreas colaborativas e identidade profissional." data-image="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1497366754035-f200968a6e72?auto=format&fit=crop&w=900&q=80" alt="Ambiente corporativo" loading="lazy">
+            <div class="project-info">
+              <span>Comercial</span>
+              <h3>Ambiente corporativo</h3>
+              <p>Produtividade, circulação e identidade.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal" data-category="interiores" data-title="Cozinha planejada" data-description="Solução funcional para rotina diária, com boa circulação, armazenamento e iluminação." data-image="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=900&q=80" alt="Cozinha planejada" loading="lazy">
+            <div class="project-info">
+              <span>Interiores</span>
+              <h3>Cozinha planejada</h3>
+              <p>Organização, iluminação e praticidade.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-1" data-category="residencial" data-title="Área gourmet" data-description="Espaço de convivência pensado para receber, integrar e aproveitar melhor a área externa." data-image="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=900&q=80" alt="Área gourmet" loading="lazy">
+            <div class="project-info">
+              <span>Residencial</span>
+              <h3>Área gourmet</h3>
+              <p>Convivência, conforto e integração.</p>
+            </div>
+          </article>
+
+          <article class="project-card reveal reveal-delay-2" data-category="comercial" data-title="Loja conceito" data-description="Ambiente comercial com proposta visual marcante e organização pensada para experiência do cliente." data-image="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=1400&q=80">
+            <img src="https://images.unsplash.com/photo-1555529669-e69e7aa0ba9a?auto=format&fit=crop&w=900&q=80" alt="Loja conceito" loading="lazy">
+            <div class="project-info">
+              <span>Comercial</span>
+              <h3>Loja conceito</h3>
+              <p>Marca, circulação e experiência.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section cta-section">
+      <div class="container cta-box reveal">
+        <div>
+          <span class="section-tag">Vamos conversar?</span>
+          <h2>Tem uma ideia para transformar em projeto?</h2>
+          <p>Entre em contato e conte um pouco sobre o ambiente, objetivo e estilo desejado.</p>
+        </div>
+        <a href="#contato" class="btn btn-primary">Solicitar atendimento</a>
+      </div>
+    </section>
+
+    <section class="section faq" id="faq">
+      <div class="container faq-grid">
+        <div class="section-heading left reveal">
+          <span class="section-tag">Dúvidas frequentes</span>
+          <h2>Perguntas comuns antes de começar</h2>
+          <p>Algumas respostas rápidas para facilitar o primeiro contato.</p>
+        </div>
+
+        <div class="accordion reveal reveal-delay-1">
+          <button class="accordion-item active">
+            <span>O atendimento pode ser online?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content open">
+            <p>Sim. O atendimento pode ser feito online para alinhamento inicial, levantamento de referências e acompanhamento do desenvolvimento do projeto.</p>
+          </div>
+
+          <button class="accordion-item">
+            <span>Preciso ter as medidas do ambiente?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Ajuda bastante, mas não precisa estar tudo pronto no primeiro contato. As informações necessárias podem ser orientadas durante o briefing.</p>
+          </div>
+
+          <button class="accordion-item">
+            <span>O projeto inclui imagens em 3D?</span>
+            <i class="fa-solid fa-chevron-down"></i>
+          </button>
+          <div class="accordion-content">
+            <p>Quando contratado, o 3D auxilia na visualização da proposta, facilitando a escolha de materiais, cores, iluminação e composição do ambiente.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section contact" id="contato">
+      <div class="container contact-grid">
+        <div class="contact-info reveal">
+          <span class="section-tag">Contato</span>
+          <h2>Solicite um orçamento</h2>
+          <p>
+            Preencha o formulário ou chame no WhatsApp para iniciar uma conversa sobre o seu projeto.
+            Responderemos com as próximas orientações.
+          </p>
+
+          <div class="contact-list">
+            <a href="mailto:leonardocrm.arq@gmail.com">
+              <i class="fa-solid fa-envelope"></i>
+              leonardocrm.arq@gmail.com
+            </a>
+            <a href="https://wa.me/5541997915187" target="_blank" rel="noopener">
+              <i class="fa-brands fa-whatsapp"></i>
+              (41) 99791-5187
+            </a>
+            <a href="https://instagram.com/ecko.arquitetura" target="_blank" rel="noopener">
+              <i class="fa-brands fa-instagram"></i>
+              @ecko.arquitetura
+            </a>
+          </div>
+        </div>
+
+        <form class="contact-form reveal reveal-delay-1" id="contactForm">
+          <label>
+            Nome
+            <input type="text" name="nome" placeholder="Digite seu nome" required>
+          </label>
+
+          <label>
+            E-mail
+            <input type="email" name="email" placeholder="Digite seu e-mail" required>
+          </label>
+
+          <label>
+            Serviço de interesse
+            <select name="servico" required>
+              <option value="">Selecione uma opção</option>
+              <option>Projeto residencial</option>
+              <option>Projeto comercial</option>
+              <option>Design de interiores</option>
+              <option>Consultoria</option>
+              <option>Modelagem 3D</option>
+            </select>
+          </label>
+
+          <label>
+            Mensagem
+            <textarea name="mensagem" rows="5" placeholder="Conte um pouco sobre o projeto" required></textarea>
+          </label>
+
+          <button type="submit" class="btn btn-primary">Enviar pelo WhatsApp</button>
+          <small>Ao enviar, uma mensagem será montada automaticamente para o WhatsApp.</small>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-content">
+    <div class="footer-bottom">
+      <p>© 2026 Écko Arquitetura. Todos os direitos reservados.</p>
+      <p>Desenvolvido por Guilherme CRM.</p>
+    </div>
+  </footer>
+
+  <a class="floating-whatsapp" href="https://wa.me/5541997915187" target="_blank" rel="noopener" aria-label="Chamar no WhatsApp">
+    <i class="fa-brands fa-whatsapp"></i>
+  </a>
+
+  <button class="back-to-top" id="backToTop" aria-label="Voltar ao topo">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <div class="lightbox" id="lightbox" aria-hidden="true">
+    <button class="lightbox-close" id="lightboxClose" aria-label="Fechar visualização">
+      <i class="fa-solid fa-xmark"></i>
+    </button>
+    <div class="lightbox-content">
+      <img id="lightboxImage" src="" alt="">
+      <div class="lightbox-text">
+        <h3 id="lightboxTitle"></h3>
+        <p id="lightboxDescription"></p>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
