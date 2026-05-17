@@ -198,7 +198,7 @@ button {
   display: grid;
   align-items: center;
   padding: 150px 0 90px;
-  background: url("assets/img/hero-ecko.webp") center/cover no-repeat;
+  background: url("assets/img/hero-ecko.png") center/cover no-repeat;
   overflow: hidden;
 }
 
@@ -525,7 +525,7 @@ h2 {
   color: var(--white);
   background:
     linear-gradient(135deg, rgba(17, 16, 15, 0.94), rgba(17, 16, 15, 0.84)),
-    url("assets/img/logo-ecko-dark.webp") center/cover no-repeat;
+    url("assets/img/logo-ecko-dark.png") center/cover no-repeat;
 }
 
 .process .section-heading p {
@@ -671,7 +671,7 @@ h2 {
   border-radius: var(--radius-xl);
   background:
     linear-gradient(135deg, rgba(17, 16, 15, 0.94), rgba(46, 34, 22, 0.86)),
-    url("assets/img/cover-ecko.webp") center/cover no-repeat;
+    url("assets/img/cover-ecko.png") center/cover no-repeat;
   box-shadow: var(--shadow);
 }
 
