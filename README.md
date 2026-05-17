@@ -1,4 +1,4 @@
-# Écko Arquitetura
+# Eckó Arquitetura
 
 Landing page institucional desenvolvida para apresentar os serviços, projetos e informações de contato da **Écko Arquitetura**.  
 O projeto foi criado com foco em design moderno, responsividade e boa experiência para o usuário.
